@@ -18,5 +18,8 @@ public class Main {
         System.out.println(complexTask.getSubTasks()[1].isStatus());
         System.out.println(complexTask.getSubTasks()[2].isStatus());
 
+        complexTask.setStatus(false);
+        complexTask.setDescription("new description");
+        complexTask.setPriority("new priority");
     }
 }
